@@ -45,6 +45,7 @@ function App() {
     if(info?.length){localStorage.setItem('contacts',JSON.stringify(info))}
   },[info])
 
+  
 
     //get localstorage data
     useEffect(()=>{
