@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import AddContact from './Component/AddContact';
+import Header from './Component/Header';
+import ContactList from './Component/ContactList';
 
 function App() {
   return (
     <div className="App">
-       <h1 className='text-primary'>Hellow world ,,,,</h1>
+       <Header />
+       <AddContact />
+       <ContactList />
+       
     </div>
   );
 }
