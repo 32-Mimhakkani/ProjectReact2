@@ -42,7 +42,7 @@ function App() {
 
   //for localstorage setitems
   useEffect(()=>{
-     localStorage.setItem('contacts',JSON.stringify(info))
+    if(info?.length){localStorage.setItem('contacts',JSON.stringify(info))}
   },[info])
 
 
@@ -50,7 +50,7 @@ function App() {
     useEffect(()=>{
       const getinfoall = JSON.parse(localStorage.getItem('contacts')) 
       console.log(getinfoall);
-     if(getinfoall) setInfo(getinfoall)
+     if(getinfoall?.length) setInfo(getinfoall)
    },[])
   
   return (
