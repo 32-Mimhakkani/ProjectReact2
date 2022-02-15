@@ -3,7 +3,7 @@ import './App.css';
 import AddContact from './Component/AddContact';
 import Header from './Component/Header';
 import ContactList from './Component/ContactList';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const contactlists =[
   {
@@ -39,6 +39,20 @@ const contactlists =[
 function App() {
   const [info,setInfo] =useState([])
 
+
+  //for localstorage setitems
+  useEffect(()=>{
+     localStorage.setItem('contacts',JSON.stringify(info))
+  },[info])
+
+
+    //get localstorage data
+    useEffect(()=>{
+      const getinfoall = JSON.parse(localStorage.getItem('contacts')) 
+      console.log(getinfoall);
+     if(getinfoall) setInfo(getinfoall)
+   },[])
+  
   return (
     <div className="App">
        <Header />
