@@ -1,0 +1,16 @@
+import React from 'react';
+
+const About = () => {
+    return (
+        <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo qui odit nulla impedit magnam, voluptate obcaecati inventore itaque sunt harum hic commodi esse cum quam praesentium distinctio similique provident incidunt ducimus tenetur! Quis dolores laboriosam placeat delectus sed consequuntur mollitia sit, a consequatur totam debitis eos velit distinctio quaerat vel repellendus qui culpa commodi eum neque, sapiente corporis. Explicabo itaque illum quas? Nulla facilis suscipit iste cumque? Vel pariatur ea, ipsa optio facere fuga dolorem sapiente aut! Quibusdam veniam dolor illum aliquid possimus ut. Suscipit cumque ea cum maxime quia illo distinctio laborum deleniti voluptate nulla esse, natus incidunt! Animi.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo qui odit nulla impedit magnam, voluptate obcaecati inventore itaque sunt harum hic commodi esse cum quam praesentium distinctio similique provident incidunt ducimus tenetur! Quis dolores laboriosam placeat delectus sed consequuntur mollitia sit, a consequatur totam debitis eos velit distinctio quaerat vel repellendus qui culpa commodi eum neque, sapiente corporis. Explicabo itaque illum quas? Nulla facilis suscipit iste cumque? Vel pariatur ea, ipsa optio facere fuga dolorem sapiente aut! Quibusdam veniam dolor illum aliquid possimus ut. Suscipit cumque ea cum maxime quia illo distinctio laborum deleniti voluptate nulla esse, natus incidunt! Animi.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo qui odit nulla impedit magnam, voluptate obcaecati inventore itaque sunt harum hic commodi esse cum quam praesentium distinctio similique provident incidunt ducimus tenetur! Quis dolores laboriosam placeat delectus sed consequuntur mollitia sit, a consequatur totam debitis eos velit distinctio quaerat vel repellendus qui culpa commodi eum neque, sapiente corporis. Explicabo itaque illum quas? Nulla facilis suscipit iste cumque? Vel pariatur ea, ipsa optio facere fuga dolorem sapiente aut! Quibusdam veniam dolor illum aliquid possimus ut. Suscipit cumque ea cum maxime quia illo distinctio laborum deleniti voluptate nulla esse, natus incidunt! Animi.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo qui odit nulla impedit magnam, voluptate obcaecati inventore itaque sunt harum hic commodi esse cum quam praesentium distinctio similique provident incidunt ducimus tenetur! Quis dolores laboriosam placeat delectus sed consequuntur mollitia sit, a consequatur totam debitis eos velit distinctio quaerat vel repellendus qui culpa commodi eum neque, sapiente corporis. Explicabo itaque illum quas? Nulla facilis suscipit iste cumque? Vel pariatur ea, ipsa optio facere fuga dolorem sapiente aut! Quibusdam veniam dolor illum aliquid possimus ut. Suscipit cumque ea cum maxime quia illo distinctio laborum deleniti voluptate nulla esse, natus incidunt! Animi.</p>
+        </div>
+    );
+};
+
+export default About;

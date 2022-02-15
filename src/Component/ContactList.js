@@ -15,7 +15,7 @@ const ContactList = ({info}) => {
   </thead>
   <tbody>
 {
-    info.map(clist=>
+    info?.map(clist=>
         <ContactCard key={clist.id}  clist={clist} />
     )
 }
