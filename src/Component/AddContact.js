@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const AddContact = (props) => {
@@ -58,8 +59,11 @@ const handleSubmit =e=>{
                 <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
                  <input type="password" ref ={passref} className="form-control" id="exampleInputPassword1"/>
                 </div>
-
-                <button type="submit" className="btn btn-primary">Add New</button>
+                
+                <Link to="/contactlist">
+                  <button type="submit" className="btn btn-primary">Add New</button>
+                </Link>
+               
          </form>
          </div>
     );

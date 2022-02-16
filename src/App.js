@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import ContactCard from './Component/ContactCard';
 import About from './Component/About';
+import ContactDetails from './Component/ContactDetails';
 
 const contactlists =[
   {
@@ -78,6 +79,7 @@ function App() {
               <Route path="/" element={<ContactList info={info}/>} />
               <Route path="/addcontact" element={<AddContact info={info} setInfo={setInfo} />} />
               <Route path='/contactlist' element={<ContactList info={info}/>} />
+              <Route path='/contact/:id' element={<ContactDetails/>} />
               <Route path='/about' element={<About/>} />
              
           </Routes>
